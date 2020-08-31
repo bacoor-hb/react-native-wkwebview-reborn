@@ -1,0 +1,72 @@
+{
+  "_args": [
+    [
+      "github:kytek-hub/react-native-wkwebview-reborn",
+      "/Users/mac/Documents/jlpwallet"
+    ]
+  ],
+  "_from": "github:kytek-hub/react-native-wkwebview-reborn",
+  "_id": "react-native-wkwebview-reborn@github:kytek-hub/react-native-wkwebview-reborn#43363433002ccc3647f643d4e1abd7178cbae595",
+  "_inBundle": false,
+  "_inCache": true,
+  "_integrity": "",
+  "_location": "/react-native-wkwebview-reborn",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "github:kytek-hub/react-native-wkwebview-reborn",
+    "rawSpec": "github:kytek-hub/react-native-wkwebview-reborn",
+    "saveSpec": "github:kytek-hub/react-native-wkwebview-reborn",
+    "fetchSpec": null,
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:kytek-hub/react-native-wkwebview-reborn#43363433002ccc3647f643d4e1abd7178cbae595",
+  "_shasum": "810755db27687d6f5178c2ed44e700e96a558f26",
+  "_shrinkwrap": null,
+  "_spec": "github:kytek-hub/react-native-wkwebview-reborn",
+  "_where": "/Users/mac/Documents/jlpwallet",
+  "author": {
+    "name": "Ruoyu Sun",
+    "email": "ruoysun@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/CRAlpha/react-native-wkwebview/issues"
+  },
+  "dependencies": {
+    "fbjs": "^0.8.3"
+  },
+  "description": "React Native WKWebView for iOS",
+  "devDependencies": {},
+  "gitHead": "5c1809c67ca87e531727b51f751db0e71dfebf9b",
+  "homepage": "https://github.com/CRAlpha/react-native-wkwebview",
+  "keywords": [
+    "react",
+    "native",
+    "wkwebview",
+    "webview",
+    "ios"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-wkwebview-reborn",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "prop-types": "^15.6.0"
+  },
+  "pre-push#master": [
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CRAlpha/react-native-wkwebview.git"
+  },
+  "scripts": {
+    "lint": "eslint --ext .js --ext .jsx .",
+    "sync-from-example": "cp ./example/node_modules/react-native-wkwebview-reborn/*.js ./;cp -r ./example/node_modules/react-native-wkwebview-reborn/ios ./",
+    "sync-to-example": "cp ./*.js ./example/node_modules/react-native-wkwebview-reborn/;cp -r ./ios ./example/node_modules/react-native-wkwebview-reborn/"
+  },
+  "version": "2.0.0"
+}
